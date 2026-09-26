@@ -4,9 +4,9 @@ metadata:
   name: netology-svc
 spec:
   selector:
-    app: netology-web
+    app: two-containers
   ports:
-    - name: netology-web
+    - name: two-containers
       port: 80
       protocol: TCP
-      targetPort: 8080
+      targetPort: 80
